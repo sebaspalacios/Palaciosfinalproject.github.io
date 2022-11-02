@@ -12,7 +12,7 @@ let username = id("username"),
 
 let counter = 0;
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener("click", (e) => {
    
     engine(username, 0, "Debe colocar nombre de usuario");
     engine(email , 1 , "Debe colocar su Email");
