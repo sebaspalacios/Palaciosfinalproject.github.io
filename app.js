@@ -12,14 +12,14 @@ let username = id("username"),
 
 let counter = 0;
 
-  form.addEventListener('click', (e) => {
+  form.addEventListener('submit', (e) => {
    
     engine(username, 0, "Debe colocar nombre de usuario");
     engine(email , 1 , "Debe colocar su Email");
     engine(password, 2 , "Su contraseña debe contener mas de 8 caracteres");
-    if(username.value.length, email.value.length, password.value.length  == " ") {
-      alert("Debe completar los campos")
-    }
+    if(username.value.length, email.value.length, password.value.length  == " ")
+      
+    
 
     if((username.value.length, email.value.length, password.value.length  != " ") && (counter < 1)) {
       counter ++;
